@@ -1,0 +1,23 @@
+body {
+    font-family: 'Arial', sans-serif;
+
+    h1, h2 {
+        color: #000000; /* Color oscuro */
+        font-weight: bold;
+        margin-bottom: 25px;}
+
+    p{
+        margin-bottom: 15px;
+        line-height: 1.8;
+    }
+
+    ol {
+        list-style-type: none;
+        padding-left: 0;
+    }
+
+    ol li::before {
+        content: "* ";
+        margin-right: 10px;
+    }
+}
