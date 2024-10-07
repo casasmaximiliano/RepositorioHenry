@@ -10,14 +10,4 @@ body {
         margin-bottom: 15px;
         line-height: 1.8;
     }
-
-    ol {
-        list-style-type: none;
-        padding-left: 0;
-    }
-
-    ol li::before {
-        content: "* ";
-        margin-right: 10px;
-    }
 }
