@@ -1,13 +1,33 @@
 body {
-    font-family: 'Arial', sans-serif;
+    background-color: whitesmoke;
 
-    h1, h2 {
-        color: #000000; /* Color oscuro */
-        font-weight: bold;
-        margin-bottom: 25px;}
+    .maintitle {
+        font-size: 40px;
+    }
+
+    .data {
+        font-size: 20 px;
+        color: darkslategray
+    }
+
+    .aboutme {
+        font-size: 30px;
+    }
+
+    h1, h2, h3 {
+        color: #000000;
+        font-size: 20px;
+        margin-bottom: 25px;
+    }
 
     p{
         margin-bottom: 15px;
         line-height: 1.8;
     }
+}
+
+footer {
+    background-color: grey;
+    font-size: 15px;
+    color: aliceblue;
 }
