@@ -3,30 +3,67 @@ body {
 
     .maintitle {
         font-size: 40px;
+        text-align: center;
+    }
+
+    .centertext {
+        text-align: center;
+    }
+
+    .left {
+        margin-left: 1em;
     }
 
     .data {
         font-size: 20 px;
-        color: darkslategray
+        color: darkslategray;
+        padding: 1em 2em 1em 3em;
+    }
+
+    .imgMaxi {
+        width: 200px;
+    }
+
+    .dataPersonalImg{
+        border: #000000;
+        display: flex;
+        width: fit-content;
+        padding: 1em 3em 1em 0em;
+        background-color: grey;
+        border-radius: 10%;
+        align-items: center;
+        margin: 0px 0px 0px 6em;
     }
 
     .aboutme {
+        padding-left: 0.5em;
         font-size: 30px;
     }
 
-    h1, h2, h3 {
+    .top {
+        padding-top: 0.4em;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        padding-left: 0.7em;
         color: #000000;
         font-size: 20px;
         margin-bottom: 25px;
     }
 
     p{
+        padding-left: 1.5em;
         margin-bottom: 15px;
         line-height: 1.8;
+    }
+
+    .down {
+        padding: 0px 0px 1em 1.5em;
     }
 }
 
 footer {
+    padding: 0.8em 0px 0.8em 2em;
     background-color: grey;
     font-size: 15px;
     color: aliceblue;
